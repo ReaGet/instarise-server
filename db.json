@@ -1,0 +1,66 @@
+{
+  "operations": [
+    {
+      "description": "asd",
+      "proxy": "192.168.0.110",
+      "username": "@_rea_m_",
+      "status": "working",
+      "photo": "string",
+      "settings": {},
+      "auto_reply_id": "string",
+      "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "group_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "id": "1123"
+    },
+    {
+      "username": "@insta",
+      "description": "Description asdfsadf asdfasdf 12312",
+      "proxy": "9.9.0.1",
+      "status": "stop",
+      "photo": "string",
+      "settings": {},
+      "auto_reply_id": "string",
+      "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "group_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "id": "44123"
+    }
+  ],
+  "reports": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "pid": "string",
+      "status": "working",
+      "action_type": "people",
+      "progress": "string",
+      "time_start": "2024-07-28T12:57:53.436Z",
+      "time_end": "2024-07-28T12:57:53.436Z",
+      "errors": {},
+      "output": {},
+      "client_id": "1123"
+    },
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2qwe63f66afa6",
+      "pid": "string",
+      "status": "finish",
+      "action_type": "parse",
+      "progress": "string",
+      "time_start": "2024-07-28T12:57:53.436Z",
+      "time_end": "2024-07-28T12:57:53.436Z",
+      "errors": {},
+      "output": {},
+      "client_id": "1123"
+    },
+    {
+      "id": "3fa8qwe64-5717-4562-b3fc-2qwe63f66afa6",
+      "pid": "string",
+      "status": "stop",
+      "action_type": "parse",
+      "progress": "string",
+      "time_start": "2024-07-28T12:57:53.436Z",
+      "time_end": "2024-07-28T12:57:53.436Z",
+      "errors": {},
+      "output": {},
+      "client_id": "44123"
+    }
+  ] 
+}
