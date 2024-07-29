@@ -1,12 +1,69 @@
 {
   "operations": [
     {
-      "description": "asd",
+      "description": "gfhfhgjfgfghjfghjfghj",
       "proxy": "192.168.0.110",
       "username": "@_rea_m_",
       "status": "working",
       "photo": "string",
-      "settings": {},
+      "config": {
+        "people": true,
+        "people_config": {
+          "users": [
+            "@rifat",
+            "@stas",
+            "@vladimir",
+            "alesya"
+          ],
+          "timeout_from": 1,
+          "timeout_to": 1,
+          "follow": true,
+          "posts_like": true,
+          "posts_timeout_from": 1,
+          "posts_timeout_to": 2,
+          "posts_amount": 2,
+          "stories_like": true,
+          "stories_timeout_from": 3,
+          "stories_timeout_to": 4,
+          "stories_amount": 1,
+          "reels_like": true,
+          "reels_timeout_from": 1,
+          "reels_timeout_to": 2,
+          "reels_amount": 4
+        },
+        "hashtags": true,
+        "hashtags_config": {
+          "timeout_from": 0,
+          "timeout_to": 0,
+          "posts_timeout_from": 0,
+          "posts_timeout_to": 0,
+          "reels_timeout_from": 0,
+          "reels_timeout_to": 0,
+          "stories_timeout_from": 0,
+          "stories_timeout_to": 0,
+          "follow": true,
+          "stories_like": true,
+          "stories_amount": 0,
+          "posts_like": true,
+          "posts_amount": 0,
+          "reels_like": true,
+          "reels_amount": 0,
+          "hashtags": [
+            "string"
+          ],
+          "amount": 0
+        },
+        "parsing": true,
+        "parsing_config": {
+          "users": [
+            "string"
+          ],
+          "followers": true,
+          "followers_amount": 0,
+          "followings": true,
+          "followings_amount": 0
+        }
+      },
       "auto_reply_id": "string",
       "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "group_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -18,7 +75,61 @@
       "proxy": "9.9.0.1",
       "status": "stop",
       "photo": "string",
-      "settings": {},
+      "config": {
+        "people": false,
+        "people_config": {
+          "timeout_from": 0,
+          "timeout_to": 0,
+          "posts_timeout_from": 0,
+          "posts_timeout_to": 0,
+          "reels_timeout_from": 0,
+          "reels_timeout_to": 0,
+          "stories_timeout_from": 0,
+          "stories_timeout_to": 0,
+          "follow": true,
+          "stories_like": true,
+          "stories_amount": 0,
+          "posts_like": true,
+          "posts_amount": 0,
+          "reels_like": true,
+          "reels_amount": 0,
+          "users": [
+            "string"
+          ]
+        },
+        "hashtags": true,
+        "hashtags_config": {
+          "timeout_from": 0,
+          "timeout_to": 0,
+          "posts_timeout_from": 0,
+          "posts_timeout_to": 0,
+          "reels_timeout_from": 0,
+          "reels_timeout_to": 0,
+          "stories_timeout_from": 0,
+          "stories_timeout_to": 0,
+          "follow": true,
+          "stories_like": true,
+          "stories_amount": 0,
+          "posts_like": true,
+          "posts_amount": 0,
+          "reels_like": true,
+          "reels_amount": 0,
+          "hashtags": [
+            "string"
+          ],
+          "amount": 0
+        },
+        "parsing": true,
+        "parsing_config": {
+          "users": [
+            "string"
+          ],
+          "followers": true,
+          "followers_amount": 0,
+          "followings": true,
+          "followings_amount": 0
+        }
+      },
       "auto_reply_id": "string",
       "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "group_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -62,5 +173,74 @@
       "output": {},
       "client_id": "44123"
     }
-  ] 
+  ],
+  "info": [
+    {
+      "followers": 100,
+      "followings": 78,
+      "client_id": 1123
+    },
+    {
+      "followers": 54123,
+      "followings": 99,
+      "client_id": 44123
+    }
+  ],
+  "config": [
+    {
+      "people": true,
+      "people_config": {
+        "timeout_from": 0,
+        "timeout_to": 0,
+        "posts_timeout_from": 0,
+        "posts_timeout_to": 0,
+        "reels_timeout_from": 0,
+        "reels_timeout_to": 0,
+        "stories_timeout_from": 0,
+        "stories_timeout_to": 0,
+        "follow": true,
+        "stories_like": true,
+        "stories_amount": 0,
+        "posts_like": true,
+        "posts_amount": 0,
+        "reels_like": true,
+        "reels_amount": 0,
+        "users": [
+          "string"
+        ]
+      },
+      "hashtags": true,
+      "hashtags_config": {
+        "timeout_from": 0,
+        "timeout_to": 0,
+        "posts_timeout_from": 0,
+        "posts_timeout_to": 0,
+        "reels_timeout_from": 0,
+        "reels_timeout_to": 0,
+        "stories_timeout_from": 0,
+        "stories_timeout_to": 0,
+        "follow": true,
+        "stories_like": true,
+        "stories_amount": 0,
+        "posts_like": true,
+        "posts_amount": 0,
+        "reels_like": true,
+        "reels_amount": 0,
+        "hashtags": [
+          "string"
+        ],
+        "amount": 0
+      },
+      "parsing": true,
+      "parsing_config": {
+        "users": [
+          "string"
+        ],
+        "followers": true,
+        "followers_amount": 0,
+        "followings": true,
+        "followings_amount": 0
+      }
+    }
+  ]
 }
