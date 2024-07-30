@@ -7,7 +7,7 @@
       "status": "working",
       "photo": "string",
       "config": {
-        "people": true,
+        "people": false,
         "people_config": {
           "users": [
             "@rifat",
@@ -18,15 +18,15 @@
           "timeout_from": 1,
           "timeout_to": 1,
           "follow": true,
-          "posts_like": true,
+          "posts_like": false,
           "posts_timeout_from": 1,
           "posts_timeout_to": 2,
           "posts_amount": 2,
-          "stories_like": true,
+          "stories_like": false,
           "stories_timeout_from": 3,
           "stories_timeout_to": 4,
           "stories_amount": 1,
-          "reels_like": true,
+          "reels_like": false,
           "reels_timeout_from": 1,
           "reels_timeout_to": 2,
           "reels_amount": 4
@@ -53,15 +53,15 @@
           ],
           "amount": 0
         },
-        "parsing": true,
+        "parsing": false,
         "parsing_config": {
           "users": [
             "string"
           ],
           "followers": true,
-          "followers_amount": 0,
+          "followers_amount": 1,
           "followings": true,
-          "followings_amount": 0
+          "followings_amount": 1
         }
       },
       "auto_reply_id": "string",
@@ -76,58 +76,47 @@
       "status": "stop",
       "photo": "string",
       "config": {
-        "people": false,
+        "people": true,
         "people_config": {
-          "timeout_from": 0,
-          "timeout_to": 0,
-          "posts_timeout_from": 0,
-          "posts_timeout_to": 0,
-          "reels_timeout_from": 0,
-          "reels_timeout_to": 0,
-          "stories_timeout_from": 0,
-          "stories_timeout_to": 0,
-          "follow": true,
-          "stories_like": true,
-          "stories_amount": 0,
-          "posts_like": true,
-          "posts_amount": 0,
-          "reels_like": true,
-          "reels_amount": 0,
           "users": [
-            "string"
-          ]
+            "123"
+          ],
+          "timeout_from": 3,
+          "timeout_to": 1,
+          "follow": false,
+          "posts_like": false,
+          "posts_timeout_from": 1,
+          "posts_timeout_to": 1,
+          "posts_amount": 1,
+          "stories_like": false,
+          "stories_timeout_from": 1,
+          "stories_timeout_to": 1,
+          "stories_amount": 1,
+          "reels_like": false,
+          "reels_timeout_from": 1,
+          "reels_timeout_to": 1,
+          "reels_amount": 1
         },
-        "hashtags": true,
+        "hashtags": false,
         "hashtags_config": {
-          "timeout_from": 0,
-          "timeout_to": 0,
-          "posts_timeout_from": 0,
-          "posts_timeout_to": 0,
-          "reels_timeout_from": 0,
-          "reels_timeout_to": 0,
-          "stories_timeout_from": 0,
-          "stories_timeout_to": 0,
-          "follow": true,
-          "stories_like": true,
-          "stories_amount": 0,
-          "posts_like": true,
-          "posts_amount": 0,
-          "reels_like": true,
-          "reels_amount": 0,
           "hashtags": [
             "string"
           ],
-          "amount": 0
+          "amount": 1,
+          "timeout_from": 56,
+          "timeout_to": 1
         },
         "parsing": true,
         "parsing_config": {
           "users": [
-            "string"
+            "qwe",
+            "qwe12",
+            "qasezx2"
           ],
           "followers": true,
-          "followers_amount": 0,
+          "followers_amount": 1,
           "followings": true,
-          "followings_amount": 0
+          "followings_amount": 1
         }
       },
       "auto_reply_id": "string",
@@ -241,6 +230,24 @@
         "followings": true,
         "followings_amount": 0
       }
+    }
+  ],
+  "autoReply": [
+    {
+      "autoReply": true,
+      "text": "{ asd | qweqe | asdf }\n{ 123 | asd | zxczxczxczx }",
+      "timeout_from": 1,
+      "timeout_to": 10,
+      "client_id": "1123",
+      "id": 1123
+    },
+    {
+      "id": 44123,
+      "autoReply": false,
+      "text": "{ 123123 }",
+      "timeout_from": 1,
+      "timeout_to": 10,
+      "client_id": 44123
     }
   ]
 }
