@@ -7,7 +7,7 @@
       "status": "working",
       "photo": "string",
       "config": {
-        "people": false,
+        "people": true,
         "people_config": {
           "users": [
             "@rifat",
@@ -248,6 +248,18 @@
       "timeout_from": 1,
       "timeout_to": 10,
       "client_id": 44123
+    }
+  ],
+  "autoReplyStatus": [
+    {
+      "id": 1123,
+      "client_id": "1123",
+      "status": true
+    },
+    {
+      "id": 44123,
+      "client_id": 44123,
+      "status": false
     }
   ]
 }
